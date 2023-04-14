@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.container{
+    min-width: 405px;
+}
+.result{
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-align: center;
+    height: 300px;
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+.resultNumber{
+    border-radius: 50%;
+    width: fit-content;
+    padding: 30px 40px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(to bottom, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+}
+.result p{
+
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+.summary{
+    
+    width: 90%;
+    margin: auto;
+}
+.mainTitle{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.reaction{
+    background-color: hsla(0, 78%, 73%, 0.308);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+  height: 50px;
+  align-items: center;
+}
+.memory{
+    background-color: hsla(39, 89%, 66%, 0.377);
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    height: 50px;
+  align-items: center;
+}
+.verbal{
+    background-color: hsla(166, 100%, 37%, 0.158);
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    height: 50px;
+  align-items: center;
+}
+.visual{
+    background-color: hsla(234, 85%, 45%, 0.199);
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    height: 50px;
+  align-items: center;
+}
+.summary img{
+    margin-right: 50px;
+}
+.myBtn{
+    width: 100%;
+}
+.myBtn button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 800px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 90vh;
+        margin: auto;
+        min-width: 800px;
+        grid-template-columns: 1fr 1fr;
+      }
+      
+      .summary {
+       
+        max-width: 40%;
+        height: 450px;
+        border-radius: 25px;
+        margin-right: 10px; /* Add a 10px margin to the right of the summary element for spacing */
+      }
+      
+      .result {
+        flex: 1;
+        max-width: 40%;
+        border-radius: 25px;
+        height: 450px;
+        margin-left: 10px; /* Add a 10px margin to the left of the result element for spacing */
+      }
+      
+      
+      
+      
+      
+      
+      
+  }
